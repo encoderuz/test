@@ -1,0 +1,26 @@
+{
+    "name": "encoderuz/test",
+    "description": "This package created for test package",
+    "autoload": {
+        "psr-4": {
+            "Encoderuz\\Test\\": "src/"
+        }
+    },
+    "require":{
+        "php": ">= 8.0"
+    },
+    "authors": [
+        {
+            "name": "encoderuz",
+            "email": "axdenc@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.30"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
